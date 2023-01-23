@@ -1,0 +1,120 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-image: url(nn.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* background-color: #ffffffff; */
+}
+
+.logo {
+  color: blue;
+}
+
+nav {
+  padding: 20px 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  height: 23%;
+}
+
+nav ul li {
+  /* background-color: #ffffffff; */
+  display: inline-block;
+  list-style: none;
+  margin: 50px 20px;
+  margin-top: 1px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(228, 225, 225);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav ul li a:hover {
+  color: limegreen;
+}
+
+.container-content {
+  /* background-color: rgb(236, 245, 245); */
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 5px; */
+  /* border-radius: 15px; */
+  /* transition: cubic-bezier(0.895, 0.03, 0.685, 0.22); */
+  /* box-shadow: 10px 10px 8px 10px rgb(20, 18, 18); */
+}
+
+.content {
+  margin-top: 15%;
+  margin-left: 8%;
+  width: 550px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: aqua;
+  border: 5px;
+  border-radius: 15px;
+  transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  box-shadow: 10px 10px 8px 10px rgb(20, 18, 18);
+}
+
+.content2 {
+  border: 5px;
+  border-radius: 15px;
+  background-color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: ubic-bezier(0.895, 0.03, 0.685, 0.22);
+  box-shadow: 10px 10px 8px 10px rgb(20, 18, 18);
+  width: 550px;
+  margin-top: 49%;
+  margin-left: 8%;
+  height: 320px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: rgb(19, 21, 21);
+  margin-bottom: 15px;
+}
+
+.content h2,
+h3 {
+  font-size: 29px;
+  color: rgb(8, 9, 9);
+}
+
+span {
+  color: orangered;
+}
+
+.content a {
+  background: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(247, 240, 240);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  display: inline-block;
+}
