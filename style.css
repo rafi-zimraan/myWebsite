@@ -13,11 +13,15 @@ body {
   position: relative;
   height: 100vh;
   width: 100%;
+  border: 5px;
   /* background-color: #ffffffff; */
 }
 
 .logo {
   color: blue;
+  border-radius: 15px;
+  transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  box-shadow: 10px 10px 8px 10px rgb(20, 18, 18);
 }
 
 nav {
